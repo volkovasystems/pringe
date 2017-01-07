@@ -1,0 +1,45 @@
+{
+  "name": "pringe",
+  "version": "0.0.0",
+  "description": "Create trace identification from method parameter.",
+  "main": "pringe.js",
+  "support": "pringe.support.js",
+  "deploy": "pringe.deploy.js",
+  "scripts": {
+    "build": "babel pringe.js -o pringe.support.js && webpack",
+    "test": "mocha pringe-test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/volkovasystems/pringe.git"
+  },
+  "keywords": [
+    "trace",
+    "identity",
+    "method",
+    "parameter",
+    "pringe"
+  ],
+  "author": "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/volkovasystems/pringe/issues"
+  },
+  "homepage": "https://github.com/volkovasystems/pringe#readme",
+  "dependencies": {
+    "babel-runtime": "^6.20.0",
+    "kurse": "^0.2.0",
+    "plough": "^0.5.0",
+    "sxty4": "0.0.0",
+    "truly": "^0.5.0",
+    "zelf": "^0.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-core": "^6.21.0",
+    "babel-plugin-transform-runtime": "^6.15.0",
+    "babel-preset-latest": "^6.16.0",
+    "source-map-loader": "^0.1.5",
+    "webpack": "^1.14.0"
+  }
+}
