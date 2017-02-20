@@ -20,4 +20,5 @@ plough \
 sxty4 \
 truly \
 zelf \
---save
+--save \
+--force-latest

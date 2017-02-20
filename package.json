@@ -1,13 +1,13 @@
 {
   "name": "pringe",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Create trace identification from method parameter.",
   "main": "pringe.js",
   "support": "pringe.support.js",
   "deploy": "pringe.deploy.js",
   "browser": "pringe.deploy.js",
   "scripts": {
-    "build": "babel pringe.js --out-file pringe.support.js --source-maps && webpack --progress",
+    "build": "babel pringe.js --out-file pringe.support.js --source-maps && webpack --progress --display-modules",
     "test": "mocha pringe-test.js"
   },
   "repository": {
@@ -32,8 +32,8 @@
   "homepage": "https://github.com/volkovasystems/pringe#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
-    "kurse": "^0.6.0",
-    "plough": "^0.12.0",
+    "kurse": "^0.7.0",
+    "plough": "^0.14.0",
     "sxty4": "^0.6.0",
     "truly": "^0.13.0",
     "zelf": "^0.8.0"
