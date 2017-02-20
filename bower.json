@@ -1,6 +1,6 @@
 {
   "name": "pringe",
-  "version": "0.4.0",
+  "version": "0.3.0",
   "description": "Create trace identification from method parameter.",
   "main": "pringe.deploy.js",
   "support": "pringe.support.js",
