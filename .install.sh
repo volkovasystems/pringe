@@ -2,6 +2,7 @@ yarn add \
 babel-runtime \
 kurse \
 plough \
+stringe \
 sxty4 \
 truly \
 zelf \
@@ -17,6 +18,7 @@ webpack \
 bower install \
 kurse \
 plough \
+stringe \
 sxty4 \
 truly \
 zelf \
