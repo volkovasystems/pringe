@@ -50,6 +50,7 @@
               		{
               			"kurse": "kurse",
               			"plough": "plough",
+              			"stringe": "stringe",
               			"sxty4": "sxty4",
               			"truly": "truly",
               			"zelf": "zelf"
@@ -59,6 +60,7 @@
 
 var kurse = require("kurse");
 var plough = require("plough");
+var stringe = require("stringe");
 var sxty4 = require("sxty4");
 var truly = require("truly");
 var zelf = require("zelf");
@@ -80,9 +82,9 @@ var pringe = function pringe(parameter) {
 
 	kurse(zelf(this));
 
-	var trace = this[kurse.ID].toString();
+	var trace = stringe(this[kurse.ID]);
 
-	parameter = parameter.filter(truly).map(function (item) {return item.toString();});
+	parameter = parameter.filter(truly).map(function (item) {return stringe(item);});
 
 	var data = trace + "@(" + parameter + ")";
 
