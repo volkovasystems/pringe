@@ -1,6 +1,6 @@
 {
   "name": "pringe",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "Create trace identification from method parameter.",
   "main": "pringe.deploy.js",
   "support": "pringe.support.js",
@@ -25,11 +25,11 @@
     "tests"
   ],
   "dependencies": {
-    "kurse": "^0.8.0",
-    "plough": "^0.20.0",
+    "kurse": "^0.9.0",
+    "plough": "^0.21.0",
     "stringe": "^0.1.0",
-    "sxty4": "^0.7.0",
-    "truly": "^0.16.0",
-    "zelf": "^0.10.0"
+    "sxty4": "^0.8.0",
+    "truly": "^0.17.0",
+    "zelf": "^0.11.0"
   }
 }
