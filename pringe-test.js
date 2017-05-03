@@ -1,3 +1,6 @@
+const assert = require( "assert" );
 const pringe = require( "./pringe.js" );
 
-console.log( pringe( ) );
+assert.ok( pringe( ) );
+
+console.log( "ok" );
