@@ -1,6 +1,6 @@
 yarn add \
 babel-runtime \
-kurse \
+idntty \
 plough \
 stringe \
 sxty4 \
@@ -16,7 +16,7 @@ source-map-loader \
 webpack \
 --dev && \
 bower install \
-kurse \
+idntty \
 plough \
 stringe \
 sxty4 \

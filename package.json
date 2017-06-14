@@ -33,7 +33,7 @@
   "homepage": "https://github.com/volkovasystems/pringe#readme",
   "dependencies": {
     "babel-runtime": "^6.23.0",
-    "kurse": "^0.18.0",
+    "idntty": "^0.1.0",
     "plough": "^0.26.0",
     "stringe": "^0.4.0",
     "sxty4": "^0.10.0",

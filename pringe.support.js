@@ -49,7 +49,7 @@
               
               	@include:
               		{
-              			"kurse": "kurse",
+              			"idntty": "idntty",
               			"plough": "plough",
               			"stringe": "stringe",
               			"sxty4": "sxty4",
@@ -59,7 +59,7 @@
               	@end-include
               */
 
-var kurse = require("kurse");
+var idntty = require("idntty");
 var plough = require("plough");
 var stringe = require("stringe");
 var sxty4 = require("sxty4");
@@ -81,9 +81,7 @@ var pringe = function pringe(parameter) {
 
 	parameter = plough(arguments);
 
-	kurse(zelf(this));
-
-	var trace = stringe(this[kurse.ID]);
+	var trace = idntty(zelf(this)).toString();
 
 	parameter = parameter.filter(truly).map(function (item) {return stringe(item);});
 
