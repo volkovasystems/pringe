@@ -1,6 +1,6 @@
 const assert = require( "assert" );
 const pringe = require( "./pringe.js" );
 
-assert.equal( pringe( "hello" ), "dW5kZWZpbmVkQChoZWxsbyk%3D", "should be equal" );
+assert.ok( pringe( ) );
 
 console.log( "ok" );
