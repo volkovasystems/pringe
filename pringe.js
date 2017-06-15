@@ -33,7 +33,8 @@
 			"module": "pringe",
 			"author": "Richeve S. Bebedor",
 			"contributors": [
-				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>"
+				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+				"Vinse Vinalon"
 			],
 			"eMail": "richeve.bebedor@gmail.com",
 			"repository": "https://github.com/volkovasystems/pringe.git",
@@ -48,7 +49,7 @@
 
 	@include:
 		{
-			"kurse": "kurse",
+			"idntty": "idntty",
 			"plough": "plough",
 			"stringe": "stringe",
 			"sxty4": "sxty4",
@@ -58,7 +59,7 @@
 	@end-include
 */
 
-const kurse = require( "kurse" );
+const idntty = require( "idntty" );
 const plough = require( "plough" );
 const stringe = require( "stringe" );
 const sxty4 = require( "sxty4" );
@@ -80,9 +81,7 @@ const pringe = function pringe( parameter ){
 
 	parameter = plough( arguments );
 
-	kurse( zelf( this ) );
-
-	let trace = stringe( this[ kurse.ID ] );
+	let trace = idntty( zelf( this ) ).toString( );
 
 	parameter = parameter.filter( truly ).map( ( item ) => { return stringe( item ); } );
 
