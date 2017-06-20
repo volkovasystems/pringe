@@ -1,13 +1,13 @@
 {
   "name": "pringe",
-  "version": "0.14.0",
+  "version": "0.15.0",
   "description": "Create trace identification from method parameter.",
   "main": "pringe.deploy.js",
   "support": "pringe.support.js",
   "authors": [
     "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
     "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon"
+    "Vinse Vinalon <vinsevinalon@gmail.com>"
   ],
   "license": "MIT",
   "keywords": [
@@ -26,7 +26,7 @@
     "tests"
   ],
   "dependencies": {
-    "idntty": "^0.2.0",
+    "idntty": "^0.3.0",
     "plough": "^0.26.0",
     "stringe": "^0.4.0",
     "sxty4": "^0.10.0",
