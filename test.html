@@ -1,28 +1,26 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>pringe unit test</title>
+		<meta charset="utf-8">
 
-		<link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.3.2.css">
+		<title>test:pringe</title>
 
-		<script type="application/javascript" src="https://code.jquery.com/qunit/qunit-2.3.2.js"></script>
-
-		<script type="application/javascript" src="./pringe.deploy.js"></script>
+		<link rel="stylesheet" href="https://unpkg.com/mocha/mocha.css"/>
 	</head>
 
 	<body>
-		<div id="qunit"></div>
+		<div id="mocha"></div>
 
-		<div id="qunit-fixture"></div>
+		<script type="application/javascript" src="https://unpkg.com/mocha/mocha.js"></script>
 
 		<script type="application/javascript">
-			QUnit.test( "pringe unit test", function( assert ) {
+			mocha.setup( "bdd" );
+		</script>
 
-				assert.equal( typeof pringe( "hello" ), "string", "should be equal to 'string'" );
+		<script type="application/javascript" src="./test.deploy.js"></script>
 
-				assert.equal( typeof pringe( { "name": "simple" } ), "string", "should be equal to 'string'" );
-
-			} );
+		<script type="application/javascript">
+			mocha.run( );
 		</script>
 	</body>
 </html>

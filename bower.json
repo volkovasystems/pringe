@@ -1,36 +1,28 @@
 {
-  "name": "pringe",
-  "version": "0.16.0",
-  "description": "Create trace identification from method parameter.",
-  "main": "pringe.deploy.js",
-  "support": "pringe.support.js",
-  "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon <vinsevinalon@gmail.com>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "trace",
-    "identity",
-    "method",
-    "parameter",
-    "pringe"
-  ],
-  "homepage": "https://github.com/volkovasystems/pringe",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "idntty": "^0.4.0",
-    "plough": "^0.29.0",
-    "stringe": "^0.5.0",
-    "sxty4": "^0.11.0",
-    "truly": "^0.20.0",
-    "zelf": "^0.14.0"
-  }
+	"name": "pringe",
+	"version": "0.16.0",
+	"description": "Create trace identification from method parameter.",
+	"main": "pringe.deploy.js",
+	"support": "pringe.support.js",
+	"authors": [
+		"Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+		"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+		"Vinse Vinalon <vinsevinalon@gmail.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"trace",
+		"identity",
+		"method",
+		"parameter",
+		"pringe"
+	],
+	"homepage": "https://github.com/volkovasystems/pringe",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
 }
