@@ -70,6 +70,18 @@ const path = require( "path" );
 
 describe( "pringe", ( ) => {
 
+	describe( "`pringe( 'hello' )`", ( ) => {
+		it( "should return string type", ( ) => {
+			assert.equal( typeof pringe( "hello" ), "string" );
+		} );
+	} );
+
+	describe( "`pringe( { 'name': 'simple' } )`", ( ) => {
+		it( "should return string type", ( ) => {
+			assert.equal( typeof pringe( { "name": "simple" } ), "string" );
+		} );
+	} );
+
 } );
 
 //: @end-server
@@ -78,6 +90,19 @@ describe( "pringe", ( ) => {
 //: @client:
 
 describe( "pringe", ( ) => {
+
+	describe( "`pringe( 'hello' )`", ( ) => {
+		it( "should return string type", ( ) => {
+			assert.equal( typeof pringe( "hello" ), "string" );
+		} );
+	} );
+
+	describe( "`pringe( { 'name': 'simple' } )`", ( ) => {
+		it( "should return string type", ( ) => {
+			assert.equal( typeof pringe( { "name": "simple" } ), "string" );
+		} );
+	} );
+
 } );
 
 //: @end-client
@@ -86,6 +111,41 @@ describe( "pringe", ( ) => {
 //: @bridge:
 
 describe( "pringe", ( ) => {
+
+	let bridgeURL = `file://${ path.resolve( __dirname, "bridge.html" ) }`;
+
+	describe( "`pringe( 'hello' )`", ( ) => {
+		it( "should return string type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof pringe( "hello" );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "string" );
+
+		} );
+	} );
+
+	describe( "`pringe( { 'name': 'simple' } )`", ( ) => {
+		it( "should return string type", ( ) => {
+			//: @ignore:
+			let result = browser.url( bridgeURL ).execute(
+
+				function( ){
+					return typeof pringe( { "name": "simple" } );
+				}
+
+			).value;
+			//: @end-ignore
+			assert.equal( result, "string" );
+
+		} );
+	} );
+
 } );
 
 //: @end-bridge
