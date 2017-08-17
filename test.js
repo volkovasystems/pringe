@@ -66,6 +66,18 @@ const pringe = require( "./pringe.js" );
 
 describe( "pringe", ( ) => {
 
+	describe( "`pringe( 'hello' )`", ( ) => {
+		it( "should return string type", ( ) => {
+			assert.equal( typeof pringe( "hello" ), "string" );
+		} );
+	} );
+
+	describe( "`pringe( { 'name': 'simple' } )`", ( ) => {
+		it( "should return string type", ( ) => {
+			assert.equal( typeof pringe( { "name": "simple" } ), "string" );
+		} );
+	} );
+
 } );
 
 //: @end-server

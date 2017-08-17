@@ -1,16 +1,46 @@
 {
-  "stats": {
-    "suites": 0,
-    "tests": 0,
-    "passes": 0,
-    "pending": 0,
-    "failures": 0,
-    "start": "2017-08-16T11:15:35.870Z",
-    "end": "2017-08-16T11:15:35.870Z",
-    "duration": 0
-  },
-  "tests": [],
-  "pending": [],
-  "failures": [],
-  "passes": []
+	"stats": {
+		"suites": 3,
+		"tests": 2,
+		"passes": 2,
+		"pending": 0,
+		"failures": 0,
+		"start": "2017-08-17T09:39:05.703Z",
+		"end": "2017-08-17T09:39:05.714Z",
+		"duration": 11
+	},
+	"tests": [
+		{
+			"title": "should return string type",
+			"fullTitle": "pringe `pringe( 'hello' )` should return string type",
+			"duration": 6,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return string type",
+			"fullTitle": "pringe `pringe( { 'name': 'simple' } )` should return string type",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		}
+	],
+	"pending": [],
+	"failures": [],
+	"passes": [
+		{
+			"title": "should return string type",
+			"fullTitle": "pringe `pringe( 'hello' )` should return string type",
+			"duration": 6,
+			"currentRetry": 0,
+			"err": {}
+		},
+		{
+			"title": "should return string type",
+			"fullTitle": "pringe `pringe( { 'name': 'simple' } )` should return string type",
+			"duration": 0,
+			"currentRetry": 0,
+			"err": {}
+		}
+	]
 }
