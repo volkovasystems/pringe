@@ -5,22 +5,22 @@
 		"passes": 2,
 		"pending": 0,
 		"failures": 0,
-		"start": "2017-08-17T09:39:05.703Z",
-		"end": "2017-08-17T09:39:05.714Z",
-		"duration": 11
+		"start": "2017-08-29T09:44:51.645Z",
+		"end": "2017-08-29T09:44:51.660Z",
+		"duration": 15
 	},
 	"tests": [
 		{
 			"title": "should return string type",
 			"fullTitle": "pringe `pringe( 'hello' )` should return string type",
-			"duration": 6,
+			"duration": 10,
 			"currentRetry": 0,
 			"err": {}
 		},
 		{
 			"title": "should return string type",
 			"fullTitle": "pringe `pringe( { 'name': 'simple' } )` should return string type",
-			"duration": 0,
+			"duration": 1,
 			"currentRetry": 0,
 			"err": {}
 		}
@@ -31,14 +31,14 @@
 		{
 			"title": "should return string type",
 			"fullTitle": "pringe `pringe( 'hello' )` should return string type",
-			"duration": 6,
+			"duration": 10,
 			"currentRetry": 0,
 			"err": {}
 		},
 		{
 			"title": "should return string type",
 			"fullTitle": "pringe `pringe( { 'name': 'simple' } )` should return string type",
-			"duration": 0,
+			"duration": 1,
 			"currentRetry": 0,
 			"err": {}
 		}

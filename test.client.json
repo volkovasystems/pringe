@@ -4,8 +4,8 @@
 		"failed": 0,
 		"skipped": 0
 	},
-	"start": "2017-08-17T09:39:06.894Z",
-	"end": "2017-08-17T09:39:48.416Z",
+	"start": "2017-08-29T09:44:53.141Z",
+	"end": "2017-08-29T09:45:43.648Z",
 	"capabilities": {
 		"browserName": "chrome",
 		"chromeOptions": {
@@ -28,52 +28,52 @@
 		{
 			"name": "pringe",
 			"duration": 0,
-			"start": "2017-08-17T09:39:48.076Z",
+			"start": "2017-08-29T09:45:43.233Z",
 			"tests": [],
 			"hooks": []
 		},
 		{
 			"name": "pringe",
-			"duration": 164,
-			"start": "2017-08-17T09:39:48.076Z",
-			"end": "2017-08-17T09:39:48.240Z",
+			"duration": 235,
+			"start": "2017-08-29T09:45:43.234Z",
+			"end": "2017-08-29T09:45:43.469Z",
 			"tests": [],
 			"hooks": [
 				{
-					"start": "2017-08-17T09:39:48.078Z",
-					"end": "2017-08-17T09:39:48.078Z",
+					"start": "2017-08-29T09:45:43.236Z",
+					"end": "2017-08-29T09:45:43.236Z",
 					"duration": 0,
 					"title": "\"before each\" hook",
 					"associatedSuite": "pringe",
 					"associatedTest": "should return string type"
 				},
 				{
-					"start": "2017-08-17T09:39:48.192Z",
-					"end": "2017-08-17T09:39:48.192Z",
-					"duration": 0,
+					"start": "2017-08-29T09:45:43.397Z",
+					"end": "2017-08-29T09:45:43.398Z",
+					"duration": 1,
 					"title": "\"after each\" hook",
 					"associatedSuite": "pringe",
 					"associatedTest": "should return string type"
 				},
 				{
-					"start": "2017-08-17T09:39:48.193Z",
-					"end": "2017-08-17T09:39:48.193Z",
-					"duration": 0,
+					"start": "2017-08-29T09:45:43.401Z",
+					"end": "2017-08-29T09:45:43.402Z",
+					"duration": 1,
 					"title": "\"before each\" hook",
 					"associatedSuite": "pringe",
 					"associatedTest": "should return string type"
 				},
 				{
-					"start": "2017-08-17T09:39:48.240Z",
-					"end": "2017-08-17T09:39:48.240Z",
+					"start": "2017-08-29T09:45:43.468Z",
+					"end": "2017-08-29T09:45:43.468Z",
 					"duration": 0,
 					"title": "\"after each\" hook",
 					"associatedSuite": "pringe",
 					"associatedTest": "should return string type"
 				},
 				{
-					"start": "2017-08-17T09:39:48.240Z",
-					"end": "2017-08-17T09:39:48.240Z",
+					"start": "2017-08-29T09:45:43.469Z",
+					"end": "2017-08-29T09:45:43.469Z",
 					"duration": 0,
 					"title": "\"after all\" hook",
 					"associatedSuite": "pringe"
@@ -82,15 +82,15 @@
 		},
 		{
 			"name": "`pringe( 'hello' )`",
-			"duration": 116,
-			"start": "2017-08-17T09:39:48.077Z",
-			"end": "2017-08-17T09:39:48.193Z",
+			"duration": 166,
+			"start": "2017-08-29T09:45:43.235Z",
+			"end": "2017-08-29T09:45:43.401Z",
 			"tests": [
 				{
 					"name": "should return string type",
-					"start": "2017-08-17T09:39:48.077Z",
-					"end": "2017-08-17T09:39:48.192Z",
-					"duration": 115,
+					"start": "2017-08-29T09:45:43.235Z",
+					"end": "2017-08-29T09:45:43.397Z",
+					"duration": 162,
 					"state": "pass"
 				}
 			],
@@ -98,15 +98,15 @@
 		},
 		{
 			"name": "`pringe( { 'name': 'simple' } )`",
-			"duration": 47,
-			"start": "2017-08-17T09:39:48.193Z",
-			"end": "2017-08-17T09:39:48.240Z",
+			"duration": 67,
+			"start": "2017-08-29T09:45:43.401Z",
+			"end": "2017-08-29T09:45:43.468Z",
 			"tests": [
 				{
 					"name": "should return string type",
-					"start": "2017-08-17T09:39:48.193Z",
-					"end": "2017-08-17T09:39:48.240Z",
-					"duration": 47,
+					"start": "2017-08-29T09:45:43.401Z",
+					"end": "2017-08-29T09:45:43.468Z",
+					"duration": 67,
 					"state": "pass"
 				}
 			],
